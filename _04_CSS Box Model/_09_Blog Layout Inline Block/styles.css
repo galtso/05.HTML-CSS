@@ -1,0 +1,23 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+}
+article{
+    width: 55%;
+    display: inline-block;
+    margin: 12px 8px 12px 24px;
+}
+aside{
+    display: inline-block;
+    position: absolute;
+}
+img{
+    width: 70%;
+}
+aside ul li{
+    color: blue;
+}
+li{
+    list-style: square;
+}
