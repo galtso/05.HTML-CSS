@@ -1,0 +1,24 @@
+body, ul, li{
+    display: flex;
+}
+
+ul{
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li{
+    justify-content: center;
+    border: 10px solid black;
+    padding: 20px;
+    justify-content: center;
+    width: 25%;
+    height: 28%;
+}
+
+img{
+    aspect-ratio: calc(7/5)
+}
+
