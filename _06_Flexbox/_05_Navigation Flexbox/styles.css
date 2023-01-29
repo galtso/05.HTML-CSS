@@ -1,0 +1,34 @@
+body{
+    padding: 0.5rem;
+}
+
+body header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+body header h1{
+    display: flex;
+}
+
+body header ul{
+    display: flex;
+}
+
+body header nav{
+    display: flex;
+}
+
+nav ul li{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 1rem;
+
+}
+
+nav ul li a{
+    color: rgb(0, 153, 0);
+}
